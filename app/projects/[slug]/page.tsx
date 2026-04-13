@@ -53,7 +53,7 @@ async function getProject(slug: string) {
             description: m.description ?? undefined,
             targetDate:  m.targetDate instanceof Date ? m.targetDate.toISOString() : String(m.targetDate),
             completed:   m.completed,
-            completedAt: m.completedAt ? (m.completedAt instanceof Date ? m.completedAt.toISOString() : String(m.completedAt)) : null,
+            completedAt: m.completedAt ? (m.completedAt instanceof Date ? m.completedAt.toISOString() : String(m.completedAt)) : undefined,
         })),
         documents: (raw.documents || []).map((d: any) => ({
             label: d.label,

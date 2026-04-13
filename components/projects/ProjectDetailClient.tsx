@@ -30,7 +30,7 @@ interface Milestone {
     description?: string;
     targetDate: string;
     completed: boolean;
-    completedAt?: string | null;
+    completedAt?: string;
 }
 
 interface Document {

@@ -50,7 +50,7 @@ async function getProject(slug: string) {
         })),
         milestones: (raw.milestones || []).map((m: any) => ({
             title:       m.title,
-            description: m.description ?? null,
+            description: m.description ?? undefined,
             targetDate:  m.targetDate instanceof Date ? m.targetDate.toISOString() : String(m.targetDate),
             completed:   m.completed,
             completedAt: m.completedAt ? (m.completedAt instanceof Date ? m.completedAt.toISOString() : String(m.completedAt)) : null,

@@ -27,7 +27,7 @@ interface Tranche {
 
 interface Milestone {
     title: string;
-    description?: string | null;
+    description?: string;
     targetDate: string;
     completed: boolean;
     completedAt?: string | null;

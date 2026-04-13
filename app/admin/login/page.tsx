@@ -58,7 +58,7 @@ export default function AdminLogin() {
                     className="text-lg font-bold tracking-[0.25em] uppercase text-white hover:opacity-80 transition-opacity"
                     style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
                 >
-                    Musk Capital<span className="text-red-500">Investment</span>
+                    Musk <span className="text-red-500">Capital</span>
                 </Link>
             </div>
 

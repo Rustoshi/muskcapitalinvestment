@@ -6,7 +6,7 @@ import User from "@/models/User";
 import WithdrawClient from "@/components/dashboard/WithdrawClient";
 
 export const metadata = {
-    title: "Withdraw | Musk Capital Investment",
+    title: "Withdraw | Musk Capital",
     description: "Securely withdraw your funds.",
 };
 

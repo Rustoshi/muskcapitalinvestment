@@ -7,7 +7,7 @@ import Transaction from "@/models/Transaction";
 import TransactionsClient from "@/components/dashboard/TransactionsClient";
 
 export const metadata = {
-    title: "Transactions | Musk Capital Investment",
+    title: "Transactions | Musk Capital",
     description: "View your complete transaction history.",
 };
 

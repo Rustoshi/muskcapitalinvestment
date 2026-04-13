@@ -150,7 +150,7 @@ export default function ProjectsPageClient({ projects }: Props) {
             {filtered.length > 0 && (
                 <p className="mt-16 text-[11px] text-white/15 text-center max-w-2xl mx-auto leading-relaxed">
                     All investment opportunities involve risk, including the possible loss of principal. Past performance does not guarantee future returns.
-                    Projected yields are estimates only and are not guaranteed. Musk Capital Investment is not a registered broker-dealer or investment adviser.
+                    Projected yields are estimates only and are not guaranteed. Musk Capital is not a registered broker-dealer or investment adviser.
                 </p>
             )}
         </div>

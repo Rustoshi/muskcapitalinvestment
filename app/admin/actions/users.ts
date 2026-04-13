@@ -254,7 +254,7 @@ export async function approveUserAccount(userId: string) {
         try {
             await sendEmail({
                 to: user.email,
-                subject: "Musk Capital Investment — Your Account Has Been Approved!",
+                subject: "Musk Capital — Your Account Has Been Approved!",
                 htmlbody: buildApprovalEmail(user.firstName),
             });
         } catch (emailError) {

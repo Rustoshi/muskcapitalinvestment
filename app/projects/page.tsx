@@ -7,7 +7,7 @@ import ProjectsPageClient from "@/components/projects/ProjectsPageClient";
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-    title: "Investment Opportunities | Musk Capital Investment",
+    title: "Investment Opportunities | Musk Capital",
     description:
         "Gain direct exposure to SpaceX, The Boring Company, and other frontier ventures. Tiered entry from $1,000 with projected yields up to 120%+.",
 };

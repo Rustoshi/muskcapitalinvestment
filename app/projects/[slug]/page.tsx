@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (!raw) return { title: "Project Not Found" };
 
     return {
-        title:       `${raw.name} | Musk Capital Investment`,
+        title:       `${raw.name} | Musk Capital`,
         description: raw.tagline,
         openGraph: {
             title:       raw.name,

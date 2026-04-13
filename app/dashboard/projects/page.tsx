@@ -10,7 +10,7 @@ import DashboardProjectsClient from "@/components/dashboard/projects/DashboardPr
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-    title: "Projects | Musk Capital Investment",
+    title: "Projects | Musk Capital",
     description: "Invest in SpaceX, The Boring Company, and more. Track your existing positions.",
 };
 

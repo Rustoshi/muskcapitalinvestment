@@ -3,7 +3,7 @@ import Navbar from "@/components/invest/Navbar";
 import Footer from "@/components/invest/Footer";
 
 export const metadata: Metadata = {
-    title: "Musk Capital Investment — Invest in the Future",
+    title: "Musk Capital — Invest in the Future",
     description: "Gain exposure to Tesla, SpaceX, Neuralink, xAI, and The Boring Company — the companies shaping humanity's next chapter.",
 };
 

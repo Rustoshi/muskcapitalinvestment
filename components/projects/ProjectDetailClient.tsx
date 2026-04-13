@@ -15,7 +15,7 @@ import InvestModal from "./InvestModal";
 
 interface Tranche {
     name: string;
-    badge?: string | null;
+    badge?: string;
     minimumAmount: number;
     maximumAmount?: number | null;
     yieldLow: number;

@@ -39,7 +39,7 @@ async function getProject(slug: string) {
         yieldCycle:        raw.yieldCycle ?? null,
         tranches: (raw.tranches || []).map((t: any) => ({
             name:           t.name,
-            badge:          t.badge ?? null,
+            badge:          t.badge ?? undefined,
             minimumAmount:  t.minimumAmount,
             maximumAmount:  t.maximumAmount ?? null,
             yieldLow:       t.yieldLow,

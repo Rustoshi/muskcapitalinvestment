@@ -17,13 +17,13 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: "Musk Space | Invest in the Future",
-    template: "%s | Musk Space",
+    default: "Musk Capital Investment | Invest in the Future",
+    template: "%s | Musk Capital Investment",
   },
   description:
     "Gain exposure to Tesla, SpaceX, Neuralink, xAI, and The Boring Company — the companies shaping humanity's next chapter.",
   keywords: [
-    "Musk Space",
+    "Musk Capital Investment",
     "invest",
     "Tesla",
     "SpaceX",
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
     "digital assets",
     "investment platform",
   ],
-  authors: [{ name: "Musk Space" }],
-  creator: "Musk Space",
-  publisher: "Musk Space",
+  authors: [{ name: "Musk Capital Investment" }],
+  creator: "Musk Capital Investment",
+  publisher: "Musk Capital Investment",
   robots: {
     index: true,
     follow: true,
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Musk Space",
-    title: "Musk Space | Invest in the Future",
+    siteName: "Musk Capital Investment",
+    title: "Musk Capital Investment | Invest in the Future",
     description:
       "Gain exposure to Tesla, SpaceX, Neuralink, xAI, and The Boring Company — the companies shaping humanity's next chapter.",
     images: [
@@ -63,13 +63,13 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Musk Space — Invest in the Future",
+        alt: "Musk Capital Investment — Invest in the Future",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Musk Space | Invest in the Future",
+    title: "Musk Capital Investment | Invest in the Future",
     description:
       "Gain exposure to Tesla, SpaceX, Neuralink, xAI, and The Boring Company.",
     images: ["/og-image.png"],

@@ -273,7 +273,7 @@ export default function ProjectEditorTabs({ mode, projectId, initialData, stakes
                         <div>
                             <label className={labelClass}>URL Slug</label>
                             <input className={inputClass} value={slug} onChange={e => setSlug(e.target.value.toLowerCase().replace(/\s+/g, '-'))} placeholder="spacex-space-city" />
-                            <p className="text-[10px] text-white/25 mt-1">→ muskspaceinvestment.pro/projects/{slug || "…"}</p>
+                            <p className="text-[10px] text-white/25 mt-1">→ muskcapitalinvestment.pro/projects/{slug || "…"}</p>
                         </div>
                         <div>
                             <label className={labelClass}>Tagline</label>

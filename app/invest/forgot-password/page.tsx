@@ -114,7 +114,7 @@ export default function ForgotPasswordPage() {
                         className="text-lg font-bold tracking-[0.25em] uppercase text-white inline-block"
                         style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
                     >
-                        Musk <span className="text-red-500">Space</span>
+                        Musk <span className="text-red-500">Capital Investment</span>
                     </Link>
                 </div>
 

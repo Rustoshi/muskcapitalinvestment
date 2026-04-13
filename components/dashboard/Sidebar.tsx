@@ -48,7 +48,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                         className="text-sm font-bold tracking-[0.25em] uppercase text-white"
                         style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
                     >
-                        Musk<span className="text-red-500">Space</span>
+                        Musk Capital<span className="text-red-500">Investment</span>
                     </Link>
                 </div>
 

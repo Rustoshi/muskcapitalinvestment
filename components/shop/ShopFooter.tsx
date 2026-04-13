@@ -23,7 +23,7 @@ export default function ShopFooter() {
                     ))}
                 </div>
                 <p className="text-[9px] text-black/40 tracking-widest uppercase font-medium">
-                    © {new Date().getFullYear()} Musk Space. All rights reserved.
+                    © {new Date().getFullYear()} Musk Capital Investment. All rights reserved.
                 </p>
             </div>
         </footer>

@@ -9,7 +9,7 @@ import dbConnect from "@/lib/mongodb";
 import ShopProduct from "@/models/ShopProduct";
 
 export const metadata: Metadata = {
-    title: "Shop | Musk Space",
+    title: "Shop | Musk Capital Investment",
     description: "Explore Tesla vehicles, solar energy, and Powerwall — premium products for a sustainable future.",
 };
 

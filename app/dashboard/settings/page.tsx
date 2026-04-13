@@ -6,7 +6,7 @@ import User from "@/models/User";
 import SettingsClient from "@/components/dashboard/SettingsClient";
 
 export const metadata = {
-    title: "Settings | Musk Space",
+    title: "Settings | Musk Capital Investment",
     description: "Manage your account settings and security.",
 };
 
